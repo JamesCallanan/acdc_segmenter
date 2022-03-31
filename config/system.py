@@ -15,7 +15,7 @@ logging.basicConfig(level=logging.INFO, format='%(asctime)s %(message)s')
 
 #The below line should probably be made false but it appears to work so will leave for now
 at_biwi = True  # Are you running this code from the ETH Computer Vision Lab (Biwi)?
-project_root = '/content/gdrive/MyDrive/ME Project/Currently working on/Baumgartner/acdc_segmenter'
+project_root = '/content/acdc_segmenter'
 data_root = '/content/training'
 test_data_root = '/content/test'
 local_hostnames = [socket.gethostname()] 
